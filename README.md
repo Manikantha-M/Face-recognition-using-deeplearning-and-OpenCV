@@ -37,6 +37,6 @@ All of these tasks will be accomplished with OpenCV, enabling us to obtain a “
 
 # How OpenCV face-recogninition works
 <p align="center">
-   <img src="cap22.JPG">
+   <img src="facenet.jpg">
   </p>
 
