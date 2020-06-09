@@ -1,5 +1,5 @@
 # TG-hackathon-1
-# Outputs of webcam stream
+# Outputs from webcam stream
 ## output1
  <p align="center">
    <img src="output221.gif">
