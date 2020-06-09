@@ -34,3 +34,9 @@ To build our face recognition system, we’ll first perform face detection, extr
 4.Recognize faces in images and video streams
 
 All of these tasks will be accomplished with OpenCV, enabling us to obtain a “pure” OpenCV face recognition pipeline.
+
+# How OpenCV face-recogninition works
+<p align="center">
+   <img src="cap22.JPG">
+  </p>
+
