@@ -44,3 +44,25 @@ All of these tasks will be accomplished with OpenCV, enabling us to obtain a “
 <p align="center">
    <img src="images/deep.png">
   </p>
+  
+ To train a face recognition model with deep learning, each input batch of data includes three images:
+
+The anchor
+
+The positive image
+
+The negative image
+
+The anchor is our current face and has identity Manikantha.
+
+The second image is our positive image — this image also contains a face of person Manikantha.
+
+The negative image, on the other hand, does not have the same identity, and could belong to any other unknown person.
+
+The point is that the anchor and positive image both belong to the same person/face while the negative image does not contain the same face.
+
+The neural network computes the 128-d embeddings for each face and then tweaks the weights of the network (via the triplet loss function) such that:
+
+The 128-d embeddings of the anchor and positive image lie closer together
+While at the same time, pushing the embeddings for the negative image father away
+In this manner, the network is able to learn to quantify faces and return highly robust and discriminating embeddings suitable for face recognition.
