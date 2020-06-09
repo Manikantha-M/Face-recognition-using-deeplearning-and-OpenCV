@@ -11,12 +11,12 @@
   </p>
 
 
-## sample dataset for real(liveness)
+## sample dataset for known(Manikantha)
  <p align="center">
-   <img src="cap1.JPG">
+   <img src="cap21.JPG">
   </p>
   
-## sample dataset for fake(pic, video)
+## sample dataset for unknown
  <p align="center">
-   <img src="Cap2.JPG">
+   <img src="cap22.JPG">
   </p>
