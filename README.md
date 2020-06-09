@@ -66,3 +66,13 @@ The neural network computes the 128-d embeddings for each face and then tweaks t
 The 128-d embeddings of the anchor and positive image lie closer together
 While at the same time, pushing the embeddings for the negative image father away
 In this manner, the network is able to learn to quantify faces and return highly robust and discriminating embeddings suitable for face recognition.
+
+## Python scripts
+### extract_embeddings.py :
+This is responsible for using a deep learning feature extractor to generate a 128-D vector describing a face. All faces in our dataset will be passed through the neural network to generate embeddings.
+### openface_nn4.small2.v1.t7 : 
+A Torch deep learning model which produces the 128-D facial embeddings.
+### train_model.py : 
+Linear SVM model will be trained by this script. It will detect faces, extract embeddings, and fit SVM model to the embeddings data.
+### recognize.py :
+It recognizes faces in images. It will detect faces, extract embeddings, and query the SVM model to determine who is in an image. It will draw boxes around faces and annotate each box with a name.
