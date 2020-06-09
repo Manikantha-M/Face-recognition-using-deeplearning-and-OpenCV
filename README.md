@@ -74,5 +74,5 @@ This is responsible for using a deep learning feature extractor to generate a 12
 A Torch deep learning model which produces the 128-D facial embeddings.
 ### train_model.py : 
 Linear SVM model will be trained by this script. It will detect faces, extract embeddings, and fit SVM model to the embeddings data.
-### recognize.py :
+### recognize_video.py :
 It recognizes faces in images. It will detect faces, extract embeddings, and query the SVM model to determine who is in an image. It will draw boxes around faces and annotate each box with a name.
