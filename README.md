@@ -30,3 +30,15 @@ To build our face recognition system, we’ll first perform face detection, extr
 3.Train a Support Vector Machine (SVM) on top of the embeddings
 4.Recognize faces in images and video streams
 All of these tasks will be accomplished with OpenCV, enabling us to obtain a “pure” OpenCV face recognition pipeline.
+
+## 1.4 Object detection workflow
+
+Object detection workflow has the following steps :
+
+1.Preparation of dataset.
+
+2.Annotating the dataset.
+
+3.Training the model on dataset and performing evaluation.
+
+4.Testing the model on new unseen data.
