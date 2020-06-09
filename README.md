@@ -2,7 +2,7 @@
 # Outputs of webcam stream
 ## output1
  <p align="center">
-   <img src="output21.gif">
+   <img src="output221.gif">
   </p>
   
 ## output2
