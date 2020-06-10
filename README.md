@@ -1,5 +1,5 @@
 # TG-hackathon-1
-# Outputs of webcam stream known(Manikantha) vs unknown
+## Outputs of webcam stream : known(Manikantha) vs unknown
 ## output1
  <p align="center">
    <img src="output221.gif">
