@@ -1,4 +1,4 @@
-# TG-hackathon-1
+## Building a face recognition system using Deep learning and OpenCV.
 ## Outputs of webcam stream : known(Manikantha) vs unknown
 ## output1
  <p align="center">
