@@ -1,4 +1,4 @@
-## Building a face recognition system using Deep learning and OpenCV.
+## face recognition system
 ## Outputs of webcam stream : known(Manikantha) vs unknown
 ## output1
  <p align="center">
