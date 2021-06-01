@@ -64,7 +64,7 @@ The point is that the anchor and positive image both belong to the same person/f
 The neural network computes the 128-d embeddings for each face and then tweaks the weights of the network (via the triplet loss function) such that:
 
 The 128-d embeddings of the anchor and positive image lie closer together
-While at the same time, pushing the embeddings for the negative image father away
+While at the same time, pushing the embeddings for the negative image farther away
 In this manner, the network is able to learn to quantify faces and return highly robust and discriminating embeddings suitable for face recognition.
 
 ## Python scripts
